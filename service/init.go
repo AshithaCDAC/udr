@@ -175,7 +175,7 @@ func (udr *UDR) Start() {
 
 	// Connect to MongoDB
 	producer.ConnectMongo(mongodb.Url, mongodb.Name, mongodb.AuthUrl, mongodb.AuthKeysDbName)
-	initLog.Infoln("Server started")
+	initLog.Infoln("Server started BY Ashitha....")
 
 	router := logger_util.NewGinWithLogrus(logger.GinLog)
 
